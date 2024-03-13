@@ -1,0 +1,25 @@
+.selectContainer {
+  position: relative;
+}
+
+.selectContainer::after {
+  content: "\25BC"; /* down arrow  */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.select {
+  appearance: none;
+  background-color: #424040;
+  color: #c7c6c6;
+  border: none;
+  outline: none;
+  padding: 4px;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}

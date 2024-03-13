@@ -1,0 +1,23 @@
+.columnHeader,
+.cornerCell {
+  background-color: #424040;
+}
+
+.cornerCell {
+  min-width: 40px;
+}
+
+.columnHeader {
+  width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .cornerCell {
+    min-width: 32px;
+  }
+
+  .columnHeader,
+  .tableHeader {
+    width: 50px;
+  }
+}

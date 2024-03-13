@@ -1,0 +1,22 @@
+.TableContainer {
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.TableContainer th,
+.TableContainer td {
+  border: 1px solid #ccc;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .TableContainer th,
+  .TableContainer td {
+    font-size: 10px;
+    height: 17px;
+  }
+}
