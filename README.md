@@ -15,7 +15,11 @@ This was part of an assignment that had the following requirements:
 6. The app has to have a mobile friendly version.
 
 Required:
-React + Typescript
-React Router
-State management (Mobx)
-CSV parser (papaparse)
+React + Typescript,
+React Router,
+State management (Mobx),
+CSV parser (papaparse).
+
+Use:
+npm i
+npm run dev
